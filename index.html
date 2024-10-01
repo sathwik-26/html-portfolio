@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webpage</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            color: coral;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+    <style>
+        body{
+            background-image: url(saaho.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1><i><u>This is first title</u></i></h1>
+    <hr color="black">
+    <nav>
+        <a href="#value" class="button">Values</a>
+    </nav>
+    <hr>
+    <nav>
+        <button onclick="location.href='#service'">Services</button>
+    </nav>
+    <hr>
+    <marquee behavior="slide" direction="right" bgcolor="coral"><h2>This is sub title</h2></marquee>
+    <hr>
+    <form>
+        Username :
+        <input type="text" placeholder="Enter text" required="true">
+        <br>
+        Password :
+        <input type="password" required="true">
+    </form>
+    <section id="value">
+        <h2>value</h2>
+        <p>Hey there! Just wanted to say I hope your day is going well. <br>Remember to take a moment for yourself and enjoy something you love. <br> You deserve it! 😊 If you need anything, I’m here to help!</p>
+    </section>
+    <section id="service">
+        <h2>This is service</h2>
+        <p>These are the list of services we provide : </p>
+        <ol type="I">
+            <li>Transport</li>
+            <li>Water</li>
+            <li>Tech</li>
+        </ol>
+    </section>
+</body>
+</html>
